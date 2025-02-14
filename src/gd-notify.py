@@ -3,9 +3,10 @@ import json
 import boto3
 import requests
 from datetime import datetime, timedelta,timezone
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
+#load_dotenv() is only needed when reading environment variables from a local .env file.
 
 def format_game_data(game):
     status = game.get("Status", "Unknown")
