@@ -79,7 +79,7 @@ def lambda_handler(event,context):
         return {"statusCode":500,"body": "Error fetching data"}
     
     messages = [format_game_data(game) for game in data]
-    final_message = "\n-----\n".join(messages) if messages else "No games available for today."
+    final_message = "\n-----\n".join(messages) if messages else f"No games available for today : {today_date}"
 
     try:
         sns.publish(
