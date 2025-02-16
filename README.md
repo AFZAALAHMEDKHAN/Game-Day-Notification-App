@@ -25,4 +25,4 @@ This project is an alert system that sends real-time NBA game day score notifica
 * External API: NBA Game API (SportsData.io)
 
 
-Reference Github repo: https://github.com/AFZAALAHMEDKHAN/game-day-notifications-ref.git
+Reference Github repo: https://github.com/ifeanyiro9/game-day-notifications.git
