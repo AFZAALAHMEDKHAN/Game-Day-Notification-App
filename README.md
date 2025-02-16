@@ -23,3 +23,6 @@ This project is an alert system that sends real-time NBA game day score notifica
 * Services: AWS Lambda, Amazon SNS, Amazon EventBridge
 
 * External API: NBA Game API (SportsData.io)
+
+
+Reference Github repo: https://github.com/AFZAALAHMEDKHAN/game-day-notifications-ref.git
